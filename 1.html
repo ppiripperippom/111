@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>게시판</title>
+</head>
+<body>
+    <div class="container">
+        <h1>게시판</h1>
+        <div class="post-form">
+            <h2>글 작성</h2>
+            <input type="text" id="author" placeholder="글쓴이">
+            <input type="text" id="title" placeholder="제목">
+            <textarea id="content" placeholder="내용"></textarea>
+            <input type="file" id="image" accept="image/*">
+            <button id="add-post">등록</button>
+        </div>
+        <div class="posts">
+            <!-- 게시물이 여기에 동적으로 추가될 것입니다. -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
